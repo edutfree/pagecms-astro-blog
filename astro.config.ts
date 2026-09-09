@@ -9,6 +9,8 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  output: 'static',
+  base: '/pagecms-astro-blog',
   integrations: [
     tailwind({
       applyBaseStyles: false,
