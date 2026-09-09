@@ -8,7 +8,7 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: SITE.website,
+  site: 'https://edutfree.github.io',
   output: 'static',
   build: {
     // 强制输出为文件夹形式 (index.html)
