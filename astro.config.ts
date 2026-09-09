@@ -10,6 +10,10 @@ import { SITE } from "./src/config";
 export default defineConfig({
   site: SITE.website,
   output: 'static',
+  build: {
+    // 强制输出为文件夹形式 (index.html)
+    format: 'directory' 
+  },
   base: '/pagecms-astro-blog',
   integrations: [
     tailwind({
